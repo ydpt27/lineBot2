@@ -31,9 +31,6 @@ def callback():
         sendText(user,'ว่าไงอ่ะ')
     return '',200    
 
-
-    
-
 def sendText(user, text):
   LINE_API = 'https://api.line.me/v2/bot/message/reply'
   headers = {
@@ -48,3 +45,6 @@ def sendText(user, text):
 
 if __name__ == '__main__':
     app.run()
+
+    
+
